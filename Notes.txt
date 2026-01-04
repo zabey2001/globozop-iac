@@ -1,0 +1,29 @@
+
+# Terraform automation with GitHub - Ned Bellavance.
+
+
+Clone the repository:  https://github.com/ned1313/Terraform-Automation-and-GitOps.git
+
+
+admin@MacBookPro Projects % git clone https://github.com/ned1313/Terraform-Automation-and-GitOps.git
+Cloning into 'Terraform-Automation-and-GitOps'...
+remote: Enumerating objects: 152, done.
+remote: Counting objects: 100% (152/152), done.
+remote: Compressing objects: 100% (101/101), done.
+remote: Total 152 (delta 59), reused 126 (delta 36), pack-reused 0 (from 0)
+Receiving objects: 100% (152/152), 32.00 KiB | 8.00 MiB/s, done.
+Resolving deltas: 100% (59/59), done.
+admin@MacBookPro Projects % 
+
+admin@MacBookPro Projects % cd Terraform-Automation-and-GitOps
+admin@MacBookPro Terraform-Automation-and-GitOps % 
+
+admin@MacBookPro Terraform-Automation-and-GitOps % cp -r base_app ../globozop-iac
+admin@MacBookPro Terraform-Automation-and-GitOps % cd ..
+admin@MacBookPro Projects % cd globozop-iac 
+
+
+admin@MacBookPro globozop-iac % git init -b main
+Initialized empty Git repository in /Users/admin/Projects/globozop-iac/.git/
+admin@MacBookPro globozop-iac % 
+
